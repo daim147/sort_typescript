@@ -1,18 +1,10 @@
 "use strict";
-class Sorter {
-    constructor(collection) {
-        this.collection = collection;
-    }
-    sort() { }
-}
-const sorter = new Sorter([
-    2,
-    313,
-    432123 - 23,
-    232,
-    -3,
-    -2314,
-    3434,
-    432,
-    3213,
-]);
+Object.defineProperty(exports, "__esModule", { value: true });
+const Sorter_1 = require("./Sorter");
+const CharacterCollection_1 = require("./CharacterCollection");
+// const numbers = new NumberCollections([10, 3, -5, 0]);
+const chracter = new CharacterCollection_1.CharacterCollection('bhjqghgHAXGXSAxajddad');
+const sorter = new Sorter_1.Sorter(chracter);
+sorter.sort();
+// console.log(numbers, 'number');
+console.log(sorter.collection);
