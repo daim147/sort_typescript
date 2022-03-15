@@ -11,7 +11,6 @@ export class LinkedList extends Sorter {
 
   add(data: number): void {
     const node = new Node(data);
-
     if (!this.head) {
       this.head = node;
       return;

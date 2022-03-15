@@ -9,6 +9,7 @@ const linkedList = new LinkedList();
 linkedList.add(-231);
 linkedList.add(2653);
 linkedList.add(-231);
+linkedList.add(9876);
 
 character.sort();
 number.sort();
