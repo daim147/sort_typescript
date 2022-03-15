@@ -1,4 +1,4 @@
-import { Sorter } from './Sorter';
+// import { Sorter } from './Sorter';
 import { NumberCollections } from './NumberCollection';
 import { CharacterCollection } from './CharacterCollection';
 import { LinkedList } from './LinkedList';
